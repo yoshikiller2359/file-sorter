@@ -10,6 +10,7 @@ file_types = {
     '.Videos': ['.mp4', '.mov', '.mkv', '.avi'],
     '.Audio': ['.mp3', '.ogg', '.wav'],
     '.Docs': ['.pdf', '.docx', '.txt', 'pptx', '.json'],
+    '.Files': ['.exe', '.zip']
 }
 
 files = os.listdir(downloads_folder) + os.listdir(desktop_folder)
